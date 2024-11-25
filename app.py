@@ -94,7 +94,7 @@ def scoring_app():
     return """
     <div class="container">
         <h2 class="mt-4 text-success">Baseball Scorekeeping App</h2>
-        <a href="/uploads/scorekeepingapp.zip" download class="btn btn-success mb-3">Download scorekeepingapp.zip</a>
+        <a href="https://drive.google.com/file/d/12OtBTj-EsNrs8NwEqPusfFP7CTUWzKEu/view?usp=sharing" download class="btn btn-success mb-3">Download scorekeepingapp.zip</a>
         <div class="row">
             <div class="col-md-12">
                 <p>
@@ -156,7 +156,7 @@ def todo_list():
     return """
     <div class="container">
         <h2 class="mt-4 text-secondary">To-Do App</h2>
-        <a href="/uploads/ToDoApp.7z" download class="btn btn-secondary mb-3">Download ToDoApp.7z</a>
+        <a href="https://drive.google.com/file/d/1s_D1Ao6wUSPQK57GjliWToLcz2Ibu8dI/view?usp=sharing" download class="btn btn-secondary mb-3">Download ToDoApp.7z</a>
         <div class="row align-items-center">
             <div class="col-md-4">
                 <img src="/static/images/todo_app.jpg" alt="To-Do App" class="img-fluid rounded">
@@ -188,7 +188,7 @@ def powerbi_dashboard():
     return """
     <div class="container">
         <h2 class="mt-4 text-warning">Power BI Dashboard</h2>
-        <a href="/uploads/gtatuleaFinalProject.pbix" download class="btn btn-warning mb-3">Download gtatuleaFinalProject.pbix</a>
+        <a href="https://drive.google.com/file/d/1ec84OGxTx0xG3lfA75ttBcl8lA5HENga/view?usp=sharing" download class="btn btn-warning mb-3">Download gtatuleaFinalProject.pbix</a>
         <div class="row align-items-center">
             <div class="col-md-6">
                 <img src="/static/images/powerbi_dashboard.jpg" alt="Power BI Dashboard" class="img-fluid rounded">
