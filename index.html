@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTMX Demo</title>
+    <script src="https://unpkg.com/htmx.org"></script>
+</head>
+<body>
+    <h1>My Portfolio</h1>
+    <button hx-get="/about-me" hx-target="#content" hx-swap="innerHTML">About Me</button>
+    <button hx-get="/scorekeeping-app" hx-target="#content" hx-swap="innerHTML">ScoreKeeping App</button>
+    <button hx-get="/todo-app" hx-target="#content" hx-swap="innerHTML">To Do App</button>
+    <button hx-get="/powerbi" hx-target="#content" hx-swap="innerHTML">PowerBI</button>
+    <div id="content">
+        <p>Select a button to see more information!</p>
+    </div>
+</body>
+</html>
